@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ContactRow({contact, setSelectedContactId}){
+export default function ContactRow({setSelectedContactId, contact}){
     return(
     <>
     <tr
